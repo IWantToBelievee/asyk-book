@@ -47,7 +47,7 @@ class App(ctk.CTk):
             self.pdf_frame.configure(file=f"_internal/asyk-split/page_{self.current_page}.pdf")
 
     def start_game(self):
-        subprocess.call(["_internal/Game/Asyk.exe"])
+        subprocess.call(["_internal/build/Asyk.exe"])
 
 
 if __name__ == '__main__':
